@@ -1,0 +1,6 @@
+Pattern,Count
+from_raw_parts,2
+raw_pointers,8
+other,120
+mem::transmute,1
+concurrency,6

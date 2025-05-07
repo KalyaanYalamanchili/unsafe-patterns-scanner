@@ -1,0 +1,7 @@
+Pattern,Count
+ffi,3
+other,386
+from_raw_parts,1
+concurrency,5
+raw_pointers,20
+ptr::read/write,7

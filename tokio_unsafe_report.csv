@@ -1,0 +1,1614 @@
+File,Line,Pattern,Risk Level,Suggestion
+/home/kalyaan/tokio/benches/signal.rs,39,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/benches/signal.rs,40,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/benches/signal.rs,41,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/examples/tinyhttp.rs,203,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,28,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,415,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,773,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,782,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,783,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,784,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,785,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,786,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,787,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,930,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,953,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,954,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,955,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,956,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,973,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,989,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1064,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1073,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1074,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1075,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1076,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1077,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1108,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/task/local.rs,1113,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1143,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1154,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1162,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1170,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1178,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1187,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1195,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1206,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/task/local.rs,1233,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/task/local.rs,1294,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/macros/try_join.rs,181,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/macros/try_join.rs,205,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/macros/join.rs,135,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/macros/join.rs,157,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/macros/select.rs,705,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/macros/pin.rs,132,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/macros/addr_of.rs,8,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/macros/addr_of.rs,15,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/doc/os.rs,26,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/doc/os.rs,41,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/future/maybe_done.rs,94,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/future/maybe_done.rs,95,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/future/maybe_done.rs,96,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/future/maybe_done.rs,110,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/mod.rs,749,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/mod.rs,1561,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/mod.rs,1596,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,66,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/process/windows.rs,67,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/process/windows.rs,124,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,136,from_raw_parts,HIGH: Creating from raw parts,Ensure proper ownership and layout
+/home/kalyaan/tokio/tokio/src/process/windows.rs,156,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,157,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,158,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,159,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,166,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/process/windows.rs,244,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,249,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,267,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,268,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,269,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,270,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,271,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,272,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,273,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,274,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,275,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,276,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,277,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,278,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,279,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,280,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,281,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,282,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/windows.rs,283,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/unix/mod.rs,197,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/unix/mod.rs,230,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/unix/mod.rs,298,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/unix/mod.rs,339,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/unix/mod.rs,344,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/unix/mod.rs,345,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/unix/mod.rs,346,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/src/process/unix/mod.rs,347,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/unix/mod.rs,348,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/unix/mod.rs,349,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/unix/pidfd_reaper.rs,41,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/process/unix/pidfd_reaper.rs,53,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/mod.rs,108,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/wake_list.rs,48,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/wake_list.rs,51,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/wake_list.rs,60,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/wake_list.rs,67,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/util/wake_list.rs,69,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/wake_list.rs,81,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/ptr_expose.rs,18,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/ptr_expose.rs,35,mem::transmute,HIGH: mem::transmute used,Avoid unless absolutely necessary
+/home/kalyaan/tokio/tokio/src/util/ptr_expose.rs,55,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/ptr_expose.rs,69,mem::transmute,HIGH: mem::transmute used,Avoid unless absolutely necessary
+/home/kalyaan/tokio/tokio/src/util/ptr_expose.rs,74,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/rc_cell.rs,29,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/rc_cell.rs,44,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/rc_cell.rs,50,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,106,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,114,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,118,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,123,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,124,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,196,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,224,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,247,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,273,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,305,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,328,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,329,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,330,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,331,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,332,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,333,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,349,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,372,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,385,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,386,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,387,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,388,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,389,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,399,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,416,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,440,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,450,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,471,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,478,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,481,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/idle_notified_set.rs,485,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/typeid.rs,9,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/typeid.rs,41,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/as_ref.rs,21,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/as_ref.rs,26,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/as_ref.rs,32,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/wake.rs,36,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/wake.rs,53,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/util/wake.rs,58,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/util/wake.rs,64,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/util/wake.rs,70,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/util/sharded_list.rs,28,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/sharded_list.rs,31,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/sharded_list.rs,81,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/sharded_list.rs,86,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/sharded_list.rs,95,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/sharded_list.rs,131,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/sharded_list.rs,138,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,30,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,31,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,43,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,57,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,67,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,101,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,102,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,124,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,125,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,126,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,127,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,128,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,129,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,130,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,143,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,144,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,145,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,146,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,147,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,148,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,149,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,163,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,164,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,165,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,166,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,167,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,168,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,169,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,200,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,254,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,297,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,300,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,301,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,319,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,320,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,321,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,322,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,323,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,362,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,363,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,364,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,365,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,366,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,367,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,368,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,369,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,370,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,371,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,372,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,373,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,386,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,403,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,404,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,405,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,406,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,407,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,408,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,409,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,410,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,411,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,412,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,413,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,414,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,435,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,439,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,444,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,445,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,446,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,450,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,451,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,452,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,481,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,489,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,493,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,597,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,598,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,599,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,600,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,601,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,602,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,603,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,604,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,605,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,606,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,607,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,608,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,609,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,610,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,611,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,612,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,613,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,614,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,615,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,616,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,617,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,618,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,619,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,621,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,622,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,623,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,624,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,625,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,626,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,627,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,628,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,629,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,630,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,631,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,632,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,633,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,634,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,635,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,636,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,638,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,639,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,640,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,641,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,642,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,643,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,644,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,645,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,646,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,647,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,648,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,649,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,650,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,651,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,652,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,654,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,655,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,656,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,657,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,658,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,659,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,660,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,661,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,662,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,663,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,664,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,665,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,666,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,667,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,668,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,669,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,671,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,672,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,673,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,674,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,675,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,676,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,677,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,678,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,679,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,680,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,681,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,682,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,683,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,684,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,685,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,686,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,687,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,688,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,689,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,690,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,691,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,692,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,694,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,695,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,696,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,697,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,698,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,699,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,700,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,701,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,702,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,703,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,704,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,705,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,706,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,707,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,708,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,709,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,710,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,711,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,712,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,714,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,715,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,716,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,717,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,718,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,719,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,720,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,721,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,722,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,723,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,724,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,725,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,726,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,727,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,729,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,730,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,731,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,732,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,733,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,734,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,735,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,736,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,737,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,791,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,792,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,793,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/linked_list.rs,794,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/markers.rs,5,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/util/atomic_cell.rs,10,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/atomic_cell.rs,11,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/atomic_cell.rs,42,from_raw_parts,HIGH: Creating from raw parts,Ensure proper ownership and layout
+/home/kalyaan/tokio/tokio/src/util/try_lock.rs,18,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/try_lock.rs,19,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/try_lock.rs,21,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/try_lock.rs,66,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/try_lock.rs,72,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/sync_wrapper.rs,14,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/sync_wrapper.rs,18,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/util/memchr.rs,16,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,239,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,240,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,248,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,249,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,274,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,275,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,366,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,373,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,403,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,414,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,436,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,545,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,553,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,557,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,567,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,568,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/mod.rs,570,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/join.rs,162,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/join.rs,163,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/join.rs,311,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/join.rs,338,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/join.rs,339,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/join.rs,340,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/task/join.rs,341,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/join.rs,367,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/join.rs,368,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,178,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,179,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,194,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,251,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,253,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,257,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,261,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,264,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,265,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,266,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,267,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,268,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,269,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,270,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,271,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,322,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,328,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,349,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,350,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,351,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,361,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,362,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,363,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,376,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,383,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,390,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,397,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,404,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,412,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,426,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,437,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,448,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,459,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,473,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,479,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/core.rs,485,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/waker.rs,28,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/waker.rs,67,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/task/waker.rs,74,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/task/waker.rs,81,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/task/waker.rs,89,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/task/trace/mod.rs,81,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/trace/mod.rs,88,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/trace/mod.rs,101,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/trace/mod.rs,102,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/trace/mod.rs,103,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/trace/mod.rs,160,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/trace/mod.rs,231,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/trace/mod.rs,232,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/trace/mod.rs,233,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/trace/mod.rs,247,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/trace/mod.rs,248,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/trace/mod.rs,249,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/task/trace/mod.rs,250,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/trace/mod.rs,251,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/trace/mod.rs,303,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,16,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,19,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,22,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,25,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,28,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,31,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,34,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,166,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,171,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,180,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,185,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,190,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,201,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,206,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,211,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,212,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,213,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,218,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,225,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,230,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,235,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,250,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,262,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,269,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,274,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,283,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,288,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,299,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,304,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/raw.rs,309,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,101,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,109,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,121,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,126,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,130,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,131,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,132,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,133,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,134,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,208,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,269,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,270,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,271,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,272,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,273,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,310,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/list.rs,336,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/abort.rs,74,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/abort.rs,78,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/task/abort.rs,79,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/task/abort.rs,87,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/abort.rs,88,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,25,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,36,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,44,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,48,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,272,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,273,from_raw_parts,HIGH: Creating from raw parts,Ensure proper ownership and layout
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,274,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,320,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,361,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,413,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,434,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,472,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,473,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,474,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,481,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,482,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/task/harness.rs,483,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/local_runtime/runtime.rs,156,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/local_runtime/runtime.rs,157,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/local_runtime/runtime.rs,158,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/local_runtime/runtime.rs,159,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/park.rs,295,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/park.rs,296,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/park.rs,297,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/park.rs,298,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/park.rs,308,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/park.rs,313,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/park.rs,320,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/park.rs,325,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/park.rs,329,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/park.rs,334,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/context.rs,200,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/handle.rs,353,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,1,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,335,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,338,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,371,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,372,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,373,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,374,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,375,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,376,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,377,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,378,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,390,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,396,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,403,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,411,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,418,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,432,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/mod.rs,486,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/mod.rs,89,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/mod.rs,102,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/mod.rs,103,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/mod.rs,104,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/mod.rs,117,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/mod.rs,118,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/mod.rs,119,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/mod.rs,120,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/mod.rs,121,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/mod.rs,122,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/mod.rs,233,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/mod.rs,238,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/mod.rs,245,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/mod.rs,246,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/mod.rs,247,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/level.rs,122,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/level.rs,130,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/level.rs,131,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/wheel/level.rs,133,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,4,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,159,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,172,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,212,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,227,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,307,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,308,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,353,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,354,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,367,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,395,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,407,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,421,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,452,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,461,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,465,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,490,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,495,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,499,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,500,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,501,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,542,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,546,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,557,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,558,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,559,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,560,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,593,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,594,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,597,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,598,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,601,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,602,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,609,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,622,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,647,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/time/entry.rs,654,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/context/scoped.rs,53,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/inject.rs,12,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/inject.rs,17,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/inject.rs,22,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/inject.rs,29,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/inject.rs,30,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/inject.rs,31,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/inject.rs,32,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/inject.rs,45,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/inject.rs,46,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/inject.rs,47,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/inject.rs,48,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/task_combinations.rs,276,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/task_combinations.rs,277,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/task_combinations.rs,278,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/task_combinations.rs,279,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/task_combinations.rs,280,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/loom_current_thread.rs,111,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/tests/loom_current_thread.rs,112,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/tests/loom_current_thread.rs,116,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/tests/loom_current_thread.rs,117,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/tests/loom_current_thread.rs,120,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/tests/loom_current_thread.rs,141,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/tests/loom_multi_thread_alt.rs,49,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/tests/loom_multi_thread.rs,47,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/mod.rs,165,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject.rs,58,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject.rs,68,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/rt_multi_thread.rs,29,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/rt_multi_thread.rs,51,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/rt_multi_thread.rs,66,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/rt_multi_thread.rs,75,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/rt_multi_thread.rs,87,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/rt_multi_thread.rs,96,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/rt_multi_thread.rs,97,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/rt_multi_thread.rs,98,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/shared.rs,17,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/shared.rs,18,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/shared.rs,68,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/shared.rs,78,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/shared.rs,83,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/shared.rs,97,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/shared.rs,106,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/synced.rs,19,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/synced.rs,20,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/synced.rs,26,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/synced.rs,32,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/inject/synced.rs,35,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,59,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,60,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,81,from_raw_parts,HIGH: Creating from raw parts,Ensure proper ownership and layout
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,149,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,168,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,169,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,170,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,196,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,233,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,234,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,235,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,321,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,352,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,382,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,399,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,432,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,509,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/queue.rs,516,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/worker/taskdump.rs,43,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/worker.rs,850,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/worker.rs,1144,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/worker.rs,1152,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/worker.rs,1153,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/worker.rs,1154,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/worker.rs,1249,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/worker.rs,1250,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread/worker.rs,1251,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/current_thread/mod.rs,477,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,62,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,63,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,130,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,152,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,153,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,154,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,180,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,219,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,220,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,221,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,311,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,344,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,374,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,391,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,426,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,504,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/queue.rs,511,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/worker/taskdump.rs,43,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/worker.rs,807,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/worker.rs,1340,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/worker.rs,1435,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/worker.rs,1436,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/worker.rs,1437,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/worker.rs,1444,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/worker.rs,1445,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/worker.rs,1446,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/worker.rs,1453,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/worker.rs,1454,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/scheduler/multi_thread_alt/worker.rs,1455,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/dump.rs,43,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/dump.rs,44,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/io/registration.rs,57,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/io/registration.rs,58,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/io/registration_set.rs,109,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/registration_set.rs,117,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/registration_set.rs,119,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/registration_set.rs,127,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/registration_set.rs,133,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/io/registration_set.rs,136,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/registration_set.rs,138,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/runtime/io/registration_set.rs,141,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/driver.rs,177,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/driver.rs,226,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/driver.rs,227,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/driver.rs,228,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/driver.rs,229,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,142,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,263,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,379,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,380,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,407,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,415,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,419,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,432,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,445,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,486,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,487,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,488,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,495,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,507,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,527,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,557,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,558,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,559,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,560,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,561,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,565,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/io/scheduled_io.rs,566,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/runtime/signal/mod.rs,69,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/runtime/signal/mod.rs,71,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,496,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,745,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,789,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,992,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,1303,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,1309,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,1310,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,1311,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,1338,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,1352,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,1364,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,1372,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,1376,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,1388,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,1415,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,1427,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/src/net/unix/pipe.rs,1436,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/src/net/unix/socket.rs,184,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/socket.rs,219,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/socket.rs,241,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/socket.rs,256,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/socket.rs,261,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,93,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,94,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,95,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,96,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,97,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,98,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,99,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,100,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,140,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,141,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,142,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,143,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,144,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,145,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,146,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,147,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,182,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,183,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,184,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,185,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,186,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,187,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,188,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,189,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,190,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,191,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,192,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,193,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,194,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,195,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,220,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,221,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,222,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,223,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,224,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,225,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,226,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,227,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,228,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,229,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,230,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,231,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,232,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,233,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,234,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,235,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,236,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,237,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,264,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,265,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,266,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,267,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,268,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,269,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,270,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,271,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,272,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,273,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,274,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,275,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,276,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,277,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,278,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,279,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,280,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,281,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,296,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,297,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,298,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,299,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,300,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,301,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,302,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,303,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,304,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,305,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,306,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,307,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,308,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/ucred.rs,309,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,524,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,880,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,886,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,887,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,888,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,937,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,943,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,944,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,945,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,999,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1005,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1006,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1007,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1047,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1053,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1054,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1055,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1187,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1195,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1196,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1197,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1289,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1297,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1298,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1299,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/datagram/socket.rs,1619,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/stream.rs,486,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/net/unix/stream.rs,492,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/stream.rs,493,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/stream.rs,494,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/stream.rs,877,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/stream.rs,1053,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/stream.rs,1087,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/listener.rs,172,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/unix/listener.rs,245,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,263,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,272,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,819,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,827,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,828,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,829,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,944,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/net/udp.rs,950,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,951,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,952,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,992,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/net/udp.rs,998,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,999,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1000,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1067,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1073,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1074,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1075,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1123,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1129,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1130,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1131,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1356,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1364,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1365,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1366,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1607,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1615,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1616,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1617,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1754,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1762,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1763,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,1764,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,2185,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/udp.rs,2202,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/socket.rs,656,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/socket.rs,664,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/socket.rs,712,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/socket.rs,720,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/socket.rs,766,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/socket.rs,774,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/socket.rs,807,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/socket.rs,818,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/socket.rs,846,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/socket.rs,857,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/stream.rs,261,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/stream.rs,270,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/stream.rs,279,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/stream.rs,374,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/stream.rs,380,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/stream.rs,771,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/net/tcp/stream.rs,777,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/stream.rs,778,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/stream.rs,779,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/stream.rs,1299,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/stream.rs,1395,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/stream.rs,1411,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/stream.rs,1429,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/listener.rs,280,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/listener.rs,289,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/listener.rs,298,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/listener.rs,420,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/listener.rs,439,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/tcp/listener.rs,456,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,114,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,127,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,158,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,605,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,611,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,612,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,613,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,896,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,934,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,987,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,1000,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,1029,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,1397,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,1403,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,1404,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,1405,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,1685,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,1723,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,2078,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,2113,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,2277,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,2303,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,2512,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,2530,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/net/windows/named_pipe.rs,2655,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/fs/file.rs,612,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/fs/file.rs,903,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/fs/file.rs,904,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/fs/file.rs,905,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/fs/file.rs,911,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/fs/file.rs,927,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/fs/file.rs,928,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/fs/file.rs,929,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/fs/file.rs,930,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/fs/file.rs,931,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/fs/file.rs,936,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/fs/mocks.rs,44,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/fs/mocks.rs,53,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/blocking.rs,41,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/blocking.rs,42,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/stdin.rs,48,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/stdin.rs,69,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/stdin.rs,85,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/stdout.rs,122,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/stdout.rs,143,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/stdout.rs,159,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/fill_buf.rs,39,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/take.rs,98,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/take.rs,99,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/take.rs,100,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/read_buf.rs,53,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/read_buf.rs,65,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/read_buf.rs,66,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/read_buf.rs,67,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/vec_with_initialized.rs,11,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/vec_with_initialized.rs,13,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/vec_with_initialized.rs,14,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/vec_with_initialized.rs,82,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/vec_with_initialized.rs,88,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/vec_with_initialized.rs,89,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/vec_with_initialized.rs,90,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/vec_with_initialized.rs,111,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/vec_with_initialized.rs,112,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/vec_with_initialized.rs,113,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/util/vec_with_initialized.rs,114,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/blocking.rs,43,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/blocking.rs,78,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/blocking.rs,241,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/blocking.rs,251,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/io/blocking.rs,260,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/poll_evented.rs,169,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,34,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,68,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,77,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,85,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,96,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,107,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,125,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,137,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,165,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,166,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,167,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,168,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,169,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,176,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,236,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,263,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,264,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,265,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,266,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,267,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,268,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,279,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,285,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,294,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,300,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,314,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,319,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/read_buf.rs,324,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/split.rs,63,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/split.rs,151,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/split.rs,152,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/split.rs,153,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/split.rs,154,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/stderr.rs,73,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/stderr.rs,94,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/stderr.rs,110,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/io/async_fd.rs,935,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/unix.rs,287,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/reusable_box.rs,28,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/reusable_box.rs,57,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/reusable_box.rs,63,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/reusable_box.rs,64,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/reusable_box.rs,65,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/reusable_box.rs,79,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/reusable_box.rs,110,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/reusable_box.rs,129,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/reusable_box.rs,134,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/reusable_box.rs,141,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/reusable_box.rs,142,from_raw_parts,HIGH: Creating from raw parts,Ensure proper ownership and layout
+/home/kalyaan/tokio/tokio/src/signal/reusable_box.rs,143,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,110,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,124,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,156,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,178,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,179,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,180,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,195,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,196,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,197,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,213,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,214,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,215,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,231,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,232,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,233,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,249,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,250,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/signal/windows/sys.rs,251,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,189,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,190,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,191,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,192,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,193,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,194,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,195,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,196,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,197,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,198,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,199,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,200,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,201,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,202,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,203,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,204,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,205,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,320,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,356,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/sync/task/atomic_waker.rs,357,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,251,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,370,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,397,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,398,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,703,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,707,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,780,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,783,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,917,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,918,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,919,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,920,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,921,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,922,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,923,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,924,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,925,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,926,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,927,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,928,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,929,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,930,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,931,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1025,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1026,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1027,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1028,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1051,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1071,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1095,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1099,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1104,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1105,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1106,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1107,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1108,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1109,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1110,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1159,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1177,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1202,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1210,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/notify.rs,1214,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,84,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,88,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,96,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,97,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,98,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,99,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,100,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,101,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,102,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,103,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,152,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,195,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,210,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,214,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,228,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,244,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,279,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,288,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,313,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,353,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,395,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/block.rs,426,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/chan.rs,110,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/chan.rs,111,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/chan.rs,248,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/chan.rs,276,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/chan.rs,283,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/chan.rs,298,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/chan.rs,368,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/chan.rs,432,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/chan.rs,492,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/chan.rs,560,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/chan.rs,563,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,76,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,77,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,78,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,79,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,93,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,106,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,125,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,128,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,163,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,164,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,165,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,181,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,225,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,226,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,227,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,228,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,243,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,269,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,270,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,271,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,272,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,273,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,274,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,275,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,276,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,310,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,334,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,335,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,336,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,337,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,338,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,339,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,340,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,341,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,342,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,343,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,344,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mpsc/list.rs,370,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,258,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,259,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,260,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,261,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,262,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,263,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,265,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,271,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,719,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,720,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,721,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,722,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,832,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,980,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,986,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1009,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1010,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1011,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1012,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1013,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1014,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1162,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1168,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1193,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1267,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1273,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1296,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1297,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1298,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1299,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1300,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1301,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1302,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1375,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/mutex.rs,1381,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,107,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,108,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,109,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,110,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,246,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,251,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,257,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,258,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,259,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,268,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,275,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,289,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,355,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,377,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,405,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,430,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,442,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,460,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/once_cell.rs,465,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/write_guard.rs,44,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/rwlock/write_guard.rs,416,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/write_guard.rs,422,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/read_guard.rs,40,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/rwlock/read_guard.rs,156,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard.rs,42,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard.rs,43,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard.rs,44,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard.rs,45,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard.rs,46,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard.rs,47,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard.rs,48,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard.rs,49,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard.rs,419,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard.rs,425,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/write_guard_mapped.rs,42,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/rwlock/write_guard_mapped.rs,172,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/write_guard_mapped.rs,178,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_read_guard.rs,38,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_read_guard.rs,39,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_read_guard.rs,40,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_read_guard.rs,41,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_read_guard.rs,42,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_read_guard.rs,43,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_read_guard.rs,44,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_read_guard.rs,173,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard_mapped.rs,41,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard_mapped.rs,42,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard_mapped.rs,43,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard_mapped.rs,44,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard_mapped.rs,45,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard_mapped.rs,46,ptr::read/write,HIGH: Manual pointer read/write,Use safe abstractions if possible
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard_mapped.rs,47,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard_mapped.rs,48,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard_mapped.rs,189,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock/owned_write_guard_mapped.rs,195,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,424,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,443,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,447,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,448,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,508,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,526,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,541,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1012,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1013,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1014,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1015,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1016,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1017,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1264,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1265,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1266,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1267,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1268,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1269,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1270,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1271,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1272,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1591,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1592,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1593,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1594,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1595,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1596,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1597,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1631,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1646,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1653,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1654,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1655,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1656,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1666,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1674,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/broadcast.rs,1678,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,407,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,411,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,421,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,428,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,598,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,610,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,611,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,612,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,613,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,614,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,615,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,616,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,617,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,618,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,809,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,820,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,827,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,828,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,829,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1070,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1154,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1223,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1277,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1278,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1279,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1295,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1304,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1320,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1325,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1332,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1333,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1334,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1341,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1359,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1360,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1361,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1376,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1389,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1394,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1395,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1406,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1407,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1408,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1412,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1413,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1414,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1419,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1420,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1421,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1422,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1423,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/oneshot.rs,1424,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/tests/notify.rs,13,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/sync/tests/notify.rs,22,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/sync/tests/notify.rs,26,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/sync/tests/notify.rs,30,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/sync/tests/notify.rs,38,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/src/sync/tests/loom_atomic_waker.rs,56,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/tests/atomic_waker.rs,64,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/tests/atomic_waker.rs,65,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,116,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,254,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,329,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,499,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,511,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,668,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,669,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,670,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,671,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,672,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,673,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,674,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,675,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,676,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,677,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,678,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,679,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,680,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,681,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,682,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,702,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,716,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,765,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,773,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/batch_semaphore.rs,777,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,149,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,150,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,154,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,155,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,158,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,164,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,170,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,171,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,172,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,173,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,183,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,184,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,185,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,186,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,1076,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,1077,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,1078,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/sync/rwlock.rs,1079,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_u16.rs,11,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_u16.rs,12,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_u16.rs,28,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_u16.rs,38,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_u16.rs,39,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_usize.rs,11,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_usize.rs,12,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_usize.rs,28,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_usize.rs,34,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_usize.rs,43,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_usize.rs,44,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_usize.rs,51,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_u32.rs,11,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_u32.rs,12,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_u32.rs,28,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_u32.rs,38,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/src/loom/std/atomic_u32.rs,39,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/support/signal.rs,4,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/support/signal.rs,5,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/support/signal.rs,6,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/support/signal.rs,7,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/support/signal.rs,8,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/support/signal.rs,9,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/support/io_vec.rs,31,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/support/leaked_buffers.rs,4,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/support/leaked_buffers.rs,20,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_take.rs,60,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/process_raw_handle.rs,22,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read.rs,63,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/uds_cred.rs,21,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/uds_cred.rs,22,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_buf_reader.rs,315,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,37,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,56,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,75,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,85,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,95,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,96,mem::zeroed,HIGH: mem::zeroed() can lead to undefined behavior,Avoid unless you know what you're doing
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,97,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,105,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,124,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,151,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,155,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,169,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,212,mem::zeroed,HIGH: mem::zeroed() can lead to undefined behavior,Avoid unless you know what you're doing
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,218,raw_pointers,HIGH: Pointer arithmetic without bounds check,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,219,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,226,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,236,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,237,mem::zeroed,HIGH: mem::zeroed() can lead to undefined behavior,Avoid unless you know what you're doing
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,238,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,246,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,267,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,290,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_poll_aio.rs,311,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,760,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,761,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,762,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,763,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,764,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,765,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,766,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,767,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,768,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,769,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,863,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,894,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,895,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,896,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,897,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,898,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,899,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,900,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,901,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,902,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,903,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,913,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,933,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/io_async_fd.rs,939,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/tokio/tokio/tests/fs_file.rs,273,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read_buf.rs,48,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read_buf.rs,49,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read_buf.rs,50,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read_buf.rs,53,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read_buf.rs,54,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read_buf.rs,55,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read_buf.rs,58,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read_buf.rs,59,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read_buf.rs,60,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read_buf.rs,69,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read_buf.rs,70,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read_buf.rs,71,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read_buf.rs,83,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read_buf.rs,84,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio/tests/io_read_buf.rs,85,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-stream/src/empty.rs,13,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-stream/src/empty.rs,14,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-stream/src/pending.rs,13,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-stream/src/pending.rs,14,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-test/src/task.rs,194,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-test/src/task.rs,195,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-test/src/task.rs,196,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-test/src/task.rs,197,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-test/src/task.rs,253,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-test/src/task.rs,257,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio-test/src/task.rs,261,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio-test/src/task.rs,270,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio-test/src/task.rs,275,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio-test/src/task.rs,283,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio-util/src/util/maybe_dangling.rs,33,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/util/maybe_dangling.rs,48,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/util/poll_buf.rs,61,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/util/poll_buf.rs,73,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/util/poll_buf.rs,74,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/util/poll_buf.rs,75,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/udp/frame.rs,86,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/udp/frame.rs,97,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/io/stream_reader.rs,321,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/io/stream_reader.rs,323,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/io/read_arc.rs,33,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio-util/src/io/read_arc.rs,43,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio-util/src/either.rs,74,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/either.rs,75,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/either.rs,76,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/either.rs,77,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/either.rs,78,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/sync/cancellation_token.rs,357,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/sync/cancellation_token.rs,365,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/sync/cancellation_token.rs,398,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/sync/reusable_box.rs,93,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/sync/reusable_box.rs,112,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/tokio/tokio-util/src/sync/reusable_box.rs,118,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/sync/reusable_box.rs,124,from_raw_parts,HIGH: Creating from raw parts,Ensure proper ownership and layout
+/home/kalyaan/tokio/tokio-util/src/sync/reusable_box.rs,130,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/sync/reusable_box.rs,147,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/sync/reusable_box.rs,154,other,LOW,Review for potential safety issues
+/home/kalyaan/tokio/tokio-util/src/sync/mpsc.rs,87,mem::transmute,HIGH: mem::transmute used,Avoid unless absolutely necessary
+/home/kalyaan/tokio/tokio-util/src/sync/mpsc.rs,105,other,LOW,Review for potential safety issues

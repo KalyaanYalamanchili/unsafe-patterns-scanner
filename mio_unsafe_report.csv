@@ -1,0 +1,297 @@
+File,Line,Pattern,Risk Level,Suggestion
+/home/kalyaan/mio/src/event/event.rs,188,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/event/event.rs,189,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/event/event.rs,190,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/event/event.rs,191,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/event/event.rs,192,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/udp.rs,596,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/net/udp.rs,598,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/net/udp.rs,671,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/udp.rs,725,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/udp.rs,762,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/udp.rs,763,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/udp.rs,764,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/udp.rs,765,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/udp.rs,766,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/stream.rs,94,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/stream.rs,96,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/stream.rs,254,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/net/tcp/stream.rs,256,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/net/tcp/stream.rs,377,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/stream.rs,431,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/stream.rs,468,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/stream.rs,469,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/stream.rs,470,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/stream.rs,471,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/stream.rs,472,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/listener.rs,66,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/listener.rs,68,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/listener.rs,195,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/listener.rs,249,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/listener.rs,286,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/listener.rs,287,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/listener.rs,288,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/listener.rs,289,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/tcp/listener.rs,290,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/uds/datagram.rs,150,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/net/uds/datagram.rs,168,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/net/uds/datagram.rs,238,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/uds/datagram.rs,248,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/uds/stream.rs,115,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/net/uds/stream.rs,133,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/net/uds/stream.rs,251,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/uds/stream.rs,261,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/uds/listener.rs,107,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/net/uds/listener.rs,117,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/interest.rs,29,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/interest.rs,32,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/interest.rs,44,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/interest.rs,48,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/interest.rs,52,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/interest.rs,69,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/wasi/mod.rs,87,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/wasi/mod.rs,104,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/wasi/mod.rs,188,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/wasi/mod.rs,191,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/mod.rs,8,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/sys/unix/pipe.rs,25,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/pipe.rs,26,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/sys/unix/pipe.rs,27,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/pipe.rs,28,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/pipe.rs,42,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/pipe.rs,43,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/pipe.rs,44,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/pipe.rs,45,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/sys/unix/pipe.rs,46,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/pipe.rs,47,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/pipe.rs,211,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/pipe.rs,212,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/pipe.rs,260,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/sys/unix/pipe.rs,278,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/sys/unix/pipe.rs,357,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/pipe.rs,362,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/pipe.rs,445,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/sys/unix/pipe.rs,463,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/sys/unix/pipe.rs,534,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/pipe.rs,544,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/pipe.rs,561,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/pipe.rs,591,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/sys/unix/pipe.rs,600,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/sys/unix/pipe.rs,612,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/sys/unix/tcp.rs,86,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/tcp.rs,113,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/tcp.rs,135,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/udp.rs,15,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/waker/eventfd.rs,39,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/waker/pipe.rs,34,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/waker/pipe.rs,35,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/uds/mod.rs,37,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/sys/unix/uds/mod.rs,63,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/uds/mod.rs,64,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/uds/mod.rs,65,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/uds/mod.rs,66,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/uds/mod.rs,67,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/uds/mod.rs,68,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/uds/mod.rs,69,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/uds/mod.rs,104,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/uds/datagram.rs,20,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/uds/stream.rs,10,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/uds/listener.rs,14,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/uds/listener.rs,32,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/sys/unix/uds/listener.rs,61,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/uds/listener.rs,87,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/uds/listener.rs,114,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/sys/unix/net.rs,190,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/selector/kqueue.rs,61,mem::zeroed,HIGH: mem::zeroed() can lead to undefined behavior,Avoid unless you know what you're doing
+/home/kalyaan/mio/src/sys/unix/selector/kqueue.rs,76,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/selector/kqueue.rs,120,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/selector/kqueue.rs,155,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/unix/selector/kqueue.rs,354,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/mio/src/sys/unix/selector/kqueue.rs,355,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/mio/src/sys/unix/selector/kqueue.rs,885,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/sys/unix/selector/epoll.rs,25,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/src/sys/unix/selector/epoll.rs,65,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/mod.rs,25,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,97,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,101,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,109,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,115,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,121,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,127,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,143,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,151,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,168,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,193,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,201,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,253,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,261,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,305,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,309,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,325,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,329,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,334,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,339,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,377,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,393,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,395,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,429,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,488,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,691,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,692,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,693,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,694,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,721,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,761,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,830,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,847,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,855,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,856,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,857,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,858,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,859,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,873,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,881,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,882,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,883,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,884,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,885,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,886,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,887,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,905,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,921,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,922,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,923,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,924,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,925,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,926,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,927,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,928,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,929,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,948,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,1054,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,1055,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/named_pipe.rs,1056,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/iocp.rs,26,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/mio/src/sys/windows/iocp.rs,30,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/mio/src/sys/windows/iocp.rs,47,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/mio/src/sys/windows/iocp.rs,48,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/mio/src/sys/windows/iocp.rs,57,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/iocp.rs,78,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/iocp.rs,109,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/iocp.rs,133,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/iocp.rs,157,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/iocp.rs,195,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/sys/windows/handle.rs,28,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/overlapped.rs,18,mem::zeroed,HIGH: mem::zeroed() can lead to undefined behavior,Avoid unless you know what you're doing
+/home/kalyaan/mio/src/sys/windows/overlapped.rs,34,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/mio/src/sys/windows/overlapped.rs,35,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/mio/src/sys/windows/udp.rs,14,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/udp.rs,44,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,19,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,33,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/mio/src/sys/windows/afd.rs,55,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,59,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,94,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,97,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/sys/windows/afd.rs,169,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,182,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,183,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,184,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/sys/windows/afd.rs,185,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,186,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/sys/windows/afd.rs,187,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,188,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,189,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,190,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,191,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,192,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,193,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,194,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,195,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,196,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,197,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,198,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,199,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/afd.rs,200,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,153,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,190,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,191,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,192,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,204,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,205,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,206,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,207,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,208,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,301,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,309,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,411,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/mio/src/sys/windows/selector.rs,456,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,463,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,469,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,486,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,561,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,585,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,605,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,630,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,631,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,632,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,633,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,634,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,635,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,636,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/src/sys/windows/selector.rs,637,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,638,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,639,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,640,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,641,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,642,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,643,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,644,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/selector.rs,700,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/net.rs,43,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/net.rs,71,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/net.rs,88,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/net.rs,93,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/src/sys/windows/io_status_block.rs,21,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/mio/examples/tcp_listenfd_server.rs,25,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/aio.rs,33,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/tests/aio.rs,49,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/aio.rs,50,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/tests/aio.rs,51,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/aio.rs,52,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/tests/aio.rs,53,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/aio.rs,54,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/aio.rs,55,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/aio.rs,108,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/aio.rs,109,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/tests/aio.rs,110,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/tests/aio.rs,111,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/aio.rs,112,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/aio.rs,113,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/mio/tests/aio.rs,114,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/aio.rs,115,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/aio.rs,116,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/aio.rs,117,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/aio.rs,118,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/aio.rs,132,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/tests/tcp_stream.rs,424,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/tcp_stream.rs,853,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/tcp_stream.rs,854,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/tests/tcp_stream.rs,855,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/tcp_stream.rs,856,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/tcp_stream.rs,857,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/tcp_stream.rs,858,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/tests/tcp_stream.rs,859,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/tcp_stream.rs,860,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/tcp_stream.rs,861,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/tcp_stream.rs,862,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/util/mod.rs,208,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/tests/util/mod.rs,223,ffi,HIGH: FFI without safety comment,Add SAFETY comment
+/home/kalyaan/mio/tests/util/mod.rs,248,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/util/mod.rs,287,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/tcp_listener.rs,130,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/udp_socket.rs,674,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/udp_socket.rs,835,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/udp_socket.rs,961,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/udp_socket.rs,964,other,LOW,Review for potential safety issues
+/home/kalyaan/mio/tests/win_named_pipe.rs,43,other,LOW,Review for potential safety issues

@@ -1,0 +1,138 @@
+File,Line,Pattern,Risk Level,Suggestion
+/home/kalyaan/hyper/benches/support/tokiort.rs,111,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/benches/support/tokiort.rs,119,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/benches/support/tokiort.rs,120,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/benches/support/tokiort.rs,121,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/benches/support/tokiort.rs,173,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/benches/support/tokiort.rs,185,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/benches/support/tokiort.rs,186,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/benches/support/tokiort.rs,187,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/benches/support/tokiort.rs,188,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/common/io/compat.rs,18,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/common/io/compat.rs,33,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/common/io/compat.rs,45,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/common/io/compat.rs,46,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/common/io/compat.rs,47,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/common/io/compat.rs,48,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/common/io/compat.rs,100,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/common/io/compat.rs,108,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/common/io/compat.rs,109,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/common/io/compat.rs,110,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/upgrade.rs,307,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/upgrade.rs,308,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/hyper/src/upgrade.rs,309,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/hyper/src/upgrade.rs,310,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h2/mod.rs,393,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h2/mod.rs,399,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h2/mod.rs,403,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h2/mod.rs,407,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h2/mod.rs,412,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h2/mod.rs,413,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h2/mod.rs,414,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h2/mod.rs,415,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h2/mod.rs,416,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h2/mod.rs,419,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h2/mod.rs,432,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h2/client.rs,593,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h2/server.rs,495,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/io.rs,232,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/io.rs,238,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/io.rs,239,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/io.rs,240,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/io.rs,241,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/io.rs,242,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/io.rs,243,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/conn.rs,1189,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/conn.rs,1190,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/conn.rs,1191,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/role.rs,50,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/role.rs,251,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/role.rs,1066,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/role.rs,1093,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/role.rs,2987,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/role.rs,2988,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/role.rs,2989,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/role.rs,3028,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/role.rs,3029,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/proto/h1/role.rs,3030,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/io.rs,142,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/hyper/src/rt/io.rs,162,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/hyper/src/rt/io.rs,171,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/io.rs,181,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/io.rs,187,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/io.rs,232,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/io.rs,242,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/io.rs,274,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/io.rs,275,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/io.rs,276,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/io.rs,277,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/io.rs,278,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/io.rs,279,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/io.rs,404,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/timer.rs,112,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/timer.rs,113,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/timer.rs,114,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/timer.rs,115,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/hyper/src/rt/timer.rs,116,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/rt/timer.rs,117,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/mod.rs,84,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/hyper/src/ffi/mod.rs,85,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/hyper/src/ffi/io.rs,150,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/hyper/src/ffi/io.rs,162,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/io.rs,197,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/hyper/src/ffi/io.rs,198,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/hyper/src/ffi/task.rs,173,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/task.rs,440,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/task.rs,453,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/task.rs,459,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/task.rs,503,mem::transmute,HIGH: mem::transmute used,Avoid unless absolutely necessary
+/home/kalyaan/hyper/src/ffi/body.rs,221,from_raw_parts,HIGH: Creating from raw parts,Ensure proper ownership and layout
+/home/kalyaan/hyper/src/ffi/body.rs,246,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/hyper/src/ffi/body.rs,247,concurrency,HIGH: Manual Send/Sync impl,Verify thread safety
+/home/kalyaan/hyper/src/ffi/body.rs,262,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/body.rs,278,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/body.rs,285,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/body.rs,294,from_raw_parts,HIGH: Creating from raw parts,Ensure proper ownership and layout
+/home/kalyaan/hyper/src/ffi/body.rs,298,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/client.rs,172,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/macros.rs,39,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/error.rs,91,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,108,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,140,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,175,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,181,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,187,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,194,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,235,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,370,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,420,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,513,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,533,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,555,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,627,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,628,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/hyper/src/ffi/http_types.rs,629,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,630,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,631,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,632,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,633,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,634,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,635,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,691,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,692,raw_pointers,MEDIUM: Raw pointer usage,Consider using NonNull<T>
+/home/kalyaan/hyper/src/ffi/http_types.rs,693,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,694,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,695,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,696,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,697,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,698,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/src/ffi/http_types.rs,699,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/tests/support/tokiort.rs,111,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/tests/support/tokiort.rs,119,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/tests/support/tokiort.rs,120,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/tests/support/tokiort.rs,121,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/tests/support/tokiort.rs,173,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/tests/support/tokiort.rs,185,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/tests/support/tokiort.rs,186,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/tests/support/tokiort.rs,187,other,LOW,Review for potential safety issues
+/home/kalyaan/hyper/tests/support/tokiort.rs,188,other,LOW,Review for potential safety issues

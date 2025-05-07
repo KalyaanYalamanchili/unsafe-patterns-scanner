@@ -1,0 +1,9 @@
+Pattern,Count
+raw_pointers,57
+mem::zeroed,3
+from_raw_parts,6
+other,1446
+ptr::read/write,33
+mem::transmute,3
+concurrency,34
+ffi,31
